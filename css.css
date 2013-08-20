@@ -1,0 +1,336 @@
+body {
+        background-image: url("images/bg_pattern.gif");
+        margin-top: 0px; 
+        margin-bottom: 0px; 
+        margin-left: 0px; 
+        margin-right: 0px;
+        font-family:Verdana;
+        color:#252525;
+        font-size:12px;
+}
+
+div.Table_01 {
+    margin-left:auto;
+    margin-right:auto;
+	width:1024px;
+	height:1200px;
+}
+
+div.appsRally-layout-01 {
+	float:left;
+	width:1px;
+	height:397px;
+}
+
+div.appsRally-02 {
+	float:left;
+	width:1022px;
+	height:397px;
+}
+
+div.appsRally-03 {
+    float:left;
+	width:1px;
+	height:397px;
+}
+
+div.appsRally-layout-02 {
+    float:left;
+	width:1px;
+	height:72px;
+}
+
+div.appsRally-layout-05 {
+    float:left;
+	width:71px;
+	height:72px;
+}
+
+div.appsRally-layout-06 {
+    float:left;
+	width:221px;
+	height:72px;
+}
+
+div.appsRally-07 {
+    float:left;
+	width:97px;
+	height:72px;
+}
+
+div.appsRally-08 {
+    float:left;
+	width:183px;
+	height:72px;
+}
+
+div.appsRally-09 {
+    float:left;
+	width:128px;
+	height:72px;
+}
+
+div.appsRally-10 {
+    float:left;
+	width:177px;
+	height:72px;
+}
+
+div.appsRally-11 {
+    float:left;
+	width:145px;
+	height:72px;
+}
+
+div.appsRally-layout-10 {
+    float:left;
+	width:1px;
+	height:72px;
+}
+
+.appsRally-content {
+	width:1024px;
+	height:auto;
+    clear:both;
+}
+
+    .appsRally-content .inner-square {
+        width:935px;
+        height:auto;
+        margin-left:42px;
+        margin-top:50px;
+        border-width:2px;
+        border-style:solid;
+        border-color:#aba9a2;
+        background-color:#f7f5ee;
+    }
+
+/*ESTILO SECCION PARTICIPA*/
+.appsRally-content .inner-square .participa-01 {
+	width:300px;
+	height:542px;
+    float:left;
+    
+}
+
+.appsRally-content .inner-square .participa-right {
+    background-color:aliceblue;
+    width:635px;
+    height:542px;
+    clear:right;
+    margin-left:300px;
+}
+
+    .appsRally-content .inner-square .participa-right .participa-right-section {
+        width:635px;
+        height:auto;
+        float:left;
+    }
+
+        .appsRally-content .inner-square .participa-right .participa-right-section .participa-right-section-left {
+            width:207px;
+            height:auto;
+            float:left;
+        }
+
+.appsRally-content .inner-square .participa-02 {
+    float:left;
+	width:207px;
+	height:40px;
+}
+
+.appsRally-content .inner-square .participa-03 {
+	width:428px;
+	height:180px;
+}
+
+.appsRally-content .inner-square .participa-04 {
+	width:207px;
+	height:140px;
+}
+
+.appsRally-content .inner-square .participa-05 {
+	width:207px;
+	height:40px;
+}
+
+.appsRally-content .inner-square .participa-06 {
+	width:428px;
+	height:172px;
+}
+
+.appsRally-content .inner-square .participa-07 {
+	width:207px;
+	height:132px;
+}
+
+.appsRally-content .inner-square .participa-08 {
+	width:207px;
+	height:40px;
+}
+
+.appsRally-content .inner-square .participa-09 {
+	width:428px;
+	height:190px;
+}
+
+.appsRally-content .inner-square .participa-10 {
+	width:207px;
+	height:150px;
+}
+
+/*ESTILO SECCION GANA*/
+.appsRally-content .inner-square .gana-top {
+	width:935px;
+	height:107px;
+}
+.appsRally-content .inner-square .gana-bottom {
+	width:935px;
+	height:600px;
+}
+    .appsRally-content .inner-square .gana-bottom .gana-bottom-left {
+	    float:left;
+        width:310px;
+        height:auto;
+    }
+
+    .appsRally-content .inner-square .gana-bottom .gana-bottom-middle {
+	    float:left;
+        width:296px;
+        height:auto;
+    }
+
+    .appsRally-content .inner-square .gana-bottom .gana-bottom-right {
+	    float:left;
+        width:329px;
+        height:auto;
+    }
+
+.appsRally-content .inner-square .gana-01 {
+	width:310px;
+	height:155px;
+    float:left;
+    margin-top:-48px;
+}
+
+.appsRally-content .inner-square .gana-02 {
+	width:625px;
+	height:48px;
+}
+
+.appsRally-content .inner-square .gana-03 {
+	width:625px;
+	height:107px;
+    float:left;
+}
+
+.appsRally-content .inner-square .gana-04 {
+	width:310px;
+	height:135px;
+}
+
+.appsRally-content .inner-square .gana-05 {
+	width:296px;
+	height:252px;
+}
+
+.appsRally-content .inner-square .gana-06 {
+	width:329px;
+	height:235px;
+}
+
+.appsRally-content .inner-square .gana-07 {
+	width:310px;
+	height:117px;
+}
+
+.appsRally-content .inner-square .gana-08 {
+	width:329px;
+	height:64px;
+}
+
+.appsRally-content .inner-square .gana-09 {
+	width:310px;
+	height:123px;
+}
+
+.appsRally-content .inner-square .gana-10 {
+	width:296px;
+	height:239px;
+}
+
+.appsRally-content .inner-square .gana-11 {
+	width:329px;
+	height:213px;
+}
+
+.appsRally-content .inner-square .gana-12 {
+	width:310px;
+	height:116px;
+}
+
+.appsRally-content .inner-square .gana-13 {
+	width:606px;
+	height:99px;
+}
+
+.appsRally-content .inner-square .gana-14 {
+	width:329px;
+	height:78px;
+}
+
+/*ESTILOS SECCION DETALLES*/
+.appsRally-content .inner-square .detalles-top {
+	width:935px;
+	height:50px;
+    background-color:#252525;
+}
+
+.appsRally-content .inner-square .detalles-top img{
+	margin-left:50px;
+}
+
+.appsRally-content .inner-square .detalles-bottom {
+	width:935px;
+	height:500px;
+}
+
+    .appsRally-content .inner-square .detalles-bottom .cuadro {
+	    width:410px;
+	    height:auto;
+        background-color: #d1d0cb;
+        border-color:#252525;
+        border-width:2px;
+        border-style:solid;
+        color:#252525;
+        margin-left:25px;
+        margin-top:25px;
+        float:left;
+        padding: 10px;
+    }
+
+        .appsRally-content .inner-square .detalles-bottom .cuadro .cuadro-left{
+            float:left;
+            width:60px;
+        }
+
+        .appsRally-content .inner-square .detalles-bottom .cuadro .cuadro-left img{
+            margin-left:-20px;
+            margin-top:-30px;
+        }
+
+        .appsRally-content .inner-square .detalles-bottom .cuadro .cuadro-right{
+            float:left;
+            width:325px;
+        }
+
+        .appsRally-content .inner-square .detalles-bottom .cuadro .cuadro-right .cuadro-right-top{
+            font-size:36px;
+            width:100%;
+            margin-left:15px;
+        }
+
+        .appsRally-content .inner-square .detalles-bottom .cuadro .cuadro-right .cuadro-right-bottom{
+            width:100%;
+            text-align:right;
+        }
