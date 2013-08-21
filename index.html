@@ -48,7 +48,7 @@
             </div>
             <div class="participa1-right">
                 <div class="participa1-right-top">Construye, Publica y Promociona tu App para Ganar!</div>
-                <div class="participa1-right-bottom">
+                <div class="participa1-right-bottom" id="principalinfo">
                     Construye y publica una o varias aplicaciones para <span style="color:#00a650"><b>Windows 8</b></span>, <span style="color:#e81122"><b>Windows Phone</b></span> o <span style="color:#00aaeb"><b>Windows Azure</b></span>, promuévela para que sobrepase las <b>100 descargas</b>
                     y envíanos un correo a <a href="mailto:appsrally@microsoft.com">AppsRally@microsoft.com</a>, todo esto <b>entre el 23 de Agosto y el 7 de Diciembre de 2013</b>, tendrás la oportunidad de 
                     Ganar increíbles premios incluyendo el <b>Nokia Lumia 1020</b>. Mira la sección de <a href="#premios">Premios</a> para enterarte 
@@ -72,13 +72,13 @@
                     <div class="gana-04">
 		                <img src="images/gana_04.gif" width="310" height="135" alt="">
 	                </div>
-                    <div class="gana-07" style="text-align:right;">
+                    <div class="gana-07" style="text-align:right;" id="masdescargas">
 		                <br />Las 3 aplicaciones que obtengan mayor número de descargas desde su publicación en la tienda hasta el 7 de Diciembre y que clasifiquen como <b><a href="#entradasvalidas">entradas validas</a></b> obtienen un premio.
 	                </div>
                     <div class="gana-09">
 		                <img src="images/gana_09.gif" width="310" height="123" alt="">
 	                </div>
-                    <div class="gana-12" style="text-align:right;">
+                    <div class="gana-12" style="text-align:right;" id="mejorcalidad">
 		                <br />Las 3 aplicaciones que un equipo de jueces de Microsoft considere como las mejores en Diseño, funcionalidad y contenido y que clasifiquen como <b><a href="#entradasvalidas">entradas validas</a></b> obtienen un premio.
 	                </div>
                 </div>
@@ -295,6 +295,27 @@
                     event.preventDefault();
                 });
                 $('#link_recursos a').bind('click', function (event) {
+                    var $anchor = $(this);
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1000, 'easeInOutExpo');
+                    event.preventDefault();
+                });
+                $('#principalinfo a').bind('click', function (event) {
+                    var $anchor = $(this);
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1000, 'easeInOutExpo');
+                    event.preventDefault();
+                });
+                $('#masdescargas a').bind('click', function (event) {
+                    var $anchor = $(this);
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1000, 'easeInOutExpo');
+                    event.preventDefault();
+                });
+                $('#mejorcalidad a').bind('click', function (event) {
                     var $anchor = $(this);
                     $('html, body').stop().animate({
                         scrollTop: $($anchor.attr('href')).offset().top
