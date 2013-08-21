@@ -114,6 +114,12 @@ div.appsRally-layout-10 {
         background-color:#f7f5ee;
     }
 
+.social {
+    padding-top: 15px;
+    width: 100%;
+    text-align: right;
+}
+
 /*ESTILO SECCION PARTICIPA*/
 .appsRally-content .inner-square .participa1-left {
 	width:259px;
