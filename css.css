@@ -17,6 +17,11 @@ a {
         color: #000000;
     }
 
+a img {
+    border-style: none;
+    border-width:0px;
+}
+
 div.Table_01 {
     margin-left:auto;
     margin-right:auto;
@@ -50,43 +55,37 @@ div.appsRally-layout-02 {
 
 div.appsRally-layout-05 {
     float:left;
-	width:71px;
+	width:48px;
 	height:72px;
 }
 
 div.appsRally-layout-06 {
     float:left;
-	width:221px;
+	width:244px;
 	height:72px;
 }
 
 div.appsRally-07 {
     float:left;
-	width:97px;
+	width:242px;
 	height:72px;
 }
 
 div.appsRally-08 {
     float:left;
-	width:183px;
+	width:212px;
 	height:72px;
 }
 
 div.appsRally-09 {
     float:left;
-	width:128px;
+	width:216px;
 	height:72px;
 }
 
 div.appsRally-10 {
     float:left;
-	width:177px;
-	height:72px;
-}
-
-div.appsRally-11 {
-    float:left;
-	width:145px;
+	width:60px;
 	height:72px;
 }
 
@@ -143,6 +142,16 @@ div.appsRally-layout-10 {
     }
 
 /*ESTILO SECCION RECURSOS*/
+.appsRally-content .inner-square .recursos-top {
+	width:935px;
+	height:50px;
+    background-color:#252525;
+}
+
+    .appsRally-content .inner-square .recursos-top img{
+	    margin-left:50px;
+    }
+
 .appsRally-content .inner-square .participa-01 {
 	width:300px;
 	height:542px;
@@ -176,9 +185,20 @@ div.appsRally-layout-10 {
 }
 
 .appsRally-content .inner-square .participa-03 {
-	width:428px;
+	width:400px;
 	height:180px;
+    float:left;
+    padding-left:15px;
 }
+
+    .appsRally-content .inner-square .participa-03 a {
+        color:#00a650;
+    }
+
+    .appsRally-content .inner-square .participa-03 a:hover {
+        color:#000000;
+    }
+
 
 .appsRally-content .inner-square .participa-04 {
 	width:207px;
@@ -191,9 +211,19 @@ div.appsRally-layout-10 {
 }
 
 .appsRally-content .inner-square .participa-06 {
-	width:428px;
+	width:400px;
 	height:172px;
+    float:left;
+    padding-left:15px;
 }
+
+    .appsRally-content .inner-square .participa-06 a {
+        color:#e81122;
+    }
+
+    .appsRally-content .inner-square .participa-06 a:hover {
+        color:#000000;
+    }
 
 .appsRally-content .inner-square .participa-07 {
 	width:207px;
@@ -206,9 +236,19 @@ div.appsRally-layout-10 {
 }
 
 .appsRally-content .inner-square .participa-09 {
-	width:428px;
+	width:400px;
 	height:190px;
+    float:left;
+    padding-left:15px;
 }
+
+    .appsRally-content .inner-square .participa-09 a {
+        color:#00aaeb;
+    }
+
+    .appsRally-content .inner-square .participa-09 a:hover {
+        color:#000000;
+    }
 
 .appsRally-content .inner-square .participa-10 {
 	width:207px;
