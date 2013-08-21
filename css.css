@@ -6,8 +6,16 @@ body {
         margin-right: 0px;
         font-family:Verdana;
         color:#252525;
-        font-size:12px;
+        font-size:13px;
 }
+
+a {
+    color:#ff9c00;
+}
+
+    a:hover {
+        color: #000000;
+    }
 
 div.Table_01 {
     margin-left:auto;
@@ -86,9 +94,11 @@ div.appsRally-layout-10 {
     float:left;
 	width:1px;
 	height:72px;
+    clear:right;
 }
 
 .appsRally-content {
+    float:left;
 	width:1024px;
 	height:auto;
     clear:both;
@@ -106,6 +116,33 @@ div.appsRally-layout-10 {
     }
 
 /*ESTILO SECCION PARTICIPA*/
+.appsRally-content .inner-square .participa1-left {
+	width:259px;
+	height:200px;
+    float:left;
+    
+}
+
+.participa1-right {
+	width:650px;
+    margin-left:20px;
+	height:200px;
+    float:left;
+    clear:right;
+}
+
+    .appsRally-content .inner-square .participa1-right .participa1-right-top {
+	    width:650px;
+	    height:70px;
+        font-size:26px;
+    }
+
+    .appsRally-content .inner-square .participa1-right .participa1-right-bottom {
+	    width:650px;
+	    height:50px;
+    }
+
+/*ESTILO SECCION RECURSOS*/
 .appsRally-content .inner-square .participa-01 {
 	width:300px;
 	height:542px;
@@ -114,7 +151,6 @@ div.appsRally-layout-10 {
 }
 
 .appsRally-content .inner-square .participa-right {
-    background-color:aliceblue;
     width:635px;
     height:542px;
     clear:right;
@@ -245,7 +281,7 @@ div.appsRally-layout-10 {
 }
 
 .appsRally-content .inner-square .gana-08 {
-	width:329px;
+	width:315px;
 	height:64px;
 }
 
@@ -275,7 +311,7 @@ div.appsRally-layout-10 {
 }
 
 .appsRally-content .inner-square .gana-14 {
-	width:329px;
+	width:315px;
 	height:78px;
 }
 
@@ -325,7 +361,7 @@ div.appsRally-layout-10 {
         }
 
         .appsRally-content .inner-square .detalles-bottom .cuadro .cuadro-right .cuadro-right-top{
-            font-size:36px;
+            font-size:26px;
             width:100%;
             margin-left:15px;
         }
