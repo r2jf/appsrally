@@ -158,6 +158,24 @@ div.appsRally-layout-10 {
 	    margin-left:50px;
     }
 
+.appsRally-content .inner-square .recursos-top-mva {
+    width: 850px;
+    margin-left:35px;
+    height:135px;
+    padding-top:15px;
+}
+
+    .appsRally-content .inner-square .recursos-top-mva .recursos-top-mva-left {
+        float:left;
+    }
+
+    .appsRally-content .inner-square .recursos-top-mva .recursos-top-mva-right {
+        float:left;
+        padding-left:15px;
+        width:550px;
+        text-align:justify;
+    }
+
 .appsRally-content .inner-square .participa-01 {
 	width:300px;
 	height:542px;
@@ -224,7 +242,7 @@ div.appsRally-layout-10 {
 }
 
     .appsRally-content .inner-square .participa-06 a {
-        color:#e81122;
+        color:#00aaeb;
     }
 
     .appsRally-content .inner-square .participa-06 a:hover {
@@ -249,7 +267,7 @@ div.appsRally-layout-10 {
 }
 
     .appsRally-content .inner-square .participa-09 a {
-        color:#00aaeb;
+        color:#e81122;
     }
 
     .appsRally-content .inner-square .participa-09 a:hover {
