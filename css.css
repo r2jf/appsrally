@@ -26,7 +26,7 @@ div.Table_01 {
     margin-left:auto;
     margin-right:auto;
 	width:1024px;
-	height:1200px;
+	height:1500px;
 }
 
 div.appsRally-layout-01 {
@@ -129,7 +129,7 @@ div.appsRally-layout-10 {
 }
 
 .participa1-right {
-	width:650px;
+	width:640px;
     margin-left:20px;
 	height:200px;
     float:left;
@@ -297,7 +297,7 @@ div.appsRally-layout-10 {
     .appsRally-content .inner-square .gana-bottom .gana-bottom-middle {
 	    float:left;
         width:296px;
-        height:auto;
+        height:750px;
     }
 
     .appsRally-content .inner-square .gana-bottom .gana-bottom-right {
@@ -359,12 +359,27 @@ div.appsRally-layout-10 {
 	height:239px;
 }
 
+.appsRally-content .inner-square .gana-110 {
+	width:296px;
+	height:230px;
+}
+
 .appsRally-content .inner-square .gana-11 {
 	width:329px;
 	height:213px;
 }
 
 .appsRally-content .inner-square .gana-12 {
+	width:310px;
+	height:116px;
+}
+
+.appsRally-content .inner-square .gana-113 {
+	width:310px;
+	height:118px;
+}
+
+.appsRally-content .inner-square .gana-114 {
 	width:310px;
 	height:116px;
 }
